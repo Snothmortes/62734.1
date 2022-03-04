@@ -9,6 +9,7 @@
 #include "debounce.hpp"
 #include "i2c.hpp"
 #include "ssd1306.hpp"
+#include <stdio.h>
 
 #define BUTTON_MASK (1 << PE4)
 #define BUTTON_PIN PINE
