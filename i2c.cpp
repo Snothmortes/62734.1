@@ -5,7 +5,6 @@
 void i2c_init() {
 	DDRA|=(1<<DDA0);
 	PORTA|=(1<<PA0);
-	//_delay_ms(1000);
 	TWBR=18;
 	TWSR&=0xFC;
 	TWCR=0x05;
